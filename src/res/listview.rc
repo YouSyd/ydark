@@ -1,0 +1,7 @@
+#include <windows.h>
+
+IDC_ICON_1 ICON "delete.ico"
+IDC_ICON_2 ICON "ed.ico"
+IDC_ICON_3 ICON "detail.ico"
+IDC_ICON_4 ICON "money.ico"
+

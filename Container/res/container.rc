@@ -1,0 +1,83 @@
+#include <windows.h>
+
+//CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "Scroll_test.exe.manifest"
+
+IDC_ICONAPP ICON "14.ico"
+IDC_ICON_AFRM ICON "13.ico"
+IDC_ICON_AFRM2 ICON "15.ico"
+
+IDC_ICON_MSG ICON "11.ico"
+IDC_ICON_MSG2 ICON "10.ico"
+
+IDR_FRMENU MENU PRELOAD DISCARDABLE
+BEGIN
+    POPUP "File(&F) "
+    BEGIN
+        MENUITEM "Exit(&X)  ",          0x0001
+        MENUITEM "Excel COM Test  ",    0x0002
+    END
+    POPUP "Help(&H) "
+    BEGIN
+        MENUITEM "About?(&A)",          0x0003
+    END
+    POPUP "Operations(&O)"
+    BEGIN
+        MENUITEM "Test Item1(&T)",      0x0004
+        MENUITEM "Test Item2(&T)",      0x0005
+        MENUITEM "Test Item3(&T)",      0x0006
+        MENUITEM "Test Item1(&T)",      0x0007
+        MENUITEM SEPARATOR
+        MENUITEM "Spliter (&S)",        0x0008
+    END
+    POPUP "Component(&O)"
+    BEGIN
+        MENUITEM "com 1",               0x0009
+        MENUITEM SEPARATOR
+        MENUITEM "com 2",               0x000a
+    END
+END
+
+IDC_ICON_CFG ICON "config.ico"
+IDC_ICON_CFG2 ICON "config2.ico"
+
+IDC_ICON_DOCKER ICON "8.ico"
+
+IDC_CURSOR CURSOR "a.cur"
+
+IDC_ICON_1 ICON "view.ico"
+IDC_ICON_2 ICON "alert.ico"
+IDC_ICON_3 ICON "Edit.ico"
+IDC_ICON_4 ICON "imp.ico"
+IDC_ICON_5 ICON "config2.ico"
+IDC_ICON_6 ICON "windows_128.ico"
+IDC_ICON_7 ICON "5.ico"
+IDC_ICON_8 ICON "AK47_128.ico"
+IDC_ICON_9 ICON "pistols_128.ico"
+IDC_ICON_a ICON "scan_128.ico"
+IDC_ICON_b ICON "test_128.ico"
+IDC_ICON_c ICON "logo.ico"
+IDC_ICON_d ICON "close.ico"
+IDC_ICON_e ICON "close2.ico"
+
+IDC_ICON_a1 ICON "icon/ListReport_Icons/flow.ico"
+IDC_ICON_a2 ICON "icon/ListReport_Icons/introduce.ico"
+IDC_ICON_a3 ICON "icon/ListReport_Icons/interface.ico"
+IDC_ICON_a4 ICON "icon/ListReport_Icons/task.ico"
+IDC_ICON_a5 ICON "icon/ListReport_Icons/data.ico"
+IDC_ICON_a6 ICON "icon/ListReport_Icons/windows_128.ico"
+IDC_ICON_a7 ICON "icon/ListReport_Icons/config.ico"
+IDC_ICON_a8 ICON "icon/ListReport_Icons/report.ico"
+IDC_ICON_a9 ICON "icon/ListReport_Icons/dashboard.ico"
+IDC_ICON_aa ICON "icon/ListReport_Icons/au.ico"
+IDC_ICON_ab ICON "icon/ListReport_Icons/module.ico"
+IDC_ICON_ac ICON "icon/ListReport_Icons/flag.ico"
+IDC_ICON_ad ICON "icon/ListReport_Icons/network.ico"
+IDC_ICON_ae ICON "icon/ListReport_Icons/server.ico"
+IDC_ICON_af ICON "icon/ListReport_Icons/more.ico"
+
+
+IDC_ICON_VMONEY ICON "money.ico"
+IDC_ICON_VEDIT ICON "ed.ico"
+IDC_ICON_VBROWSER ICON "detail.ico"
+IDC_ICON_DELETE ICON "delete.ico"
+
