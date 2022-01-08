@@ -1,0 +1,18 @@
+#include <windows.h>
+
+//CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "Scroll_test.exe.manifest"
+
+IDC_ICON_1 ICON "view.ico"
+IDC_ICON_2 ICON "alert.ico"
+IDC_ICON_3 ICON "Edit.ico"
+IDC_ICON_4 ICON "imp.ico"
+IDC_ICON_5 ICON "config2.ico"
+IDC_ICON_6 ICON "windows_128.ico"
+IDC_ICON_7 ICON "5.ico"
+IDC_ICON_8 ICON "AK47_128.ico"
+IDC_ICON_9 ICON "pistols_128.ico"
+IDC_ICON_a ICON "scan_128.ico"
+IDC_ICON_b ICON "test_128.ico"
+IDC_ICON_c ICON "logo.ico"
+IDC_ICON_d ICON "close.ico"
+IDC_ICON_e ICON "close2.ico"
